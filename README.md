@@ -1,3 +1,10 @@
+
+
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=sticknologic&label=Profile%20views&color=0e75b6&style=flat" alt="STICKnoLOGIC" /> </p>
+
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=STICKnoLOGIC" alt="STICKnoLOGIC" /></a> </p>
+
+
 - 👋 Hi, I’m @STICKnoLOGIC, a stick that is not bound to your logic
 - 👀 I’m interested in creating simple library, games (pixel) and applications
 - 🌱 I’m currently learning how to become a team player and produce/publish a game to a major platforms
