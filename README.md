@@ -3,7 +3,7 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=sticknologic&label=Profile%20views&color=000000&style=flat" alt="STICKnoLOGIC" /> </p>
 
 
-<p><a href="https://app.daily.dev/sticknologic"><img src="https://api.daily.dev/devcards/v2/Q7zjcKv8tezBcFJWbq2KQ.png?type=default&r=4qq" width="652" alt="John Aerial J.  Azcune's Dev Card"/></a></p>
+<p><a href="https://app.daily.dev/sticknologic"><img src="https://api.daily.dev/devcards/v2/Q7zjcKv8tezBcFJWbq2KQ.png?type=wide&r=4qq" width="652" alt="John Aerial J.  Azcune's Dev Card"/></a></p>
 
 Web and app developer specializing in digital design and pixel art. Skilled in Java, Dart, GDScript, and PHP, I utilize Android Studio, Godot and Flutter for development. My artistic tools include Photoshop, Canva, CapCut, Aseprite, and Illustrator. Excited to collaborate! 🎨Let's connect! 🚀 #WebDevelopment #AppDevelopment #PixelArt #DigitalDesign
 
