@@ -1,6 +1,6 @@
 
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=sticknologic&label=Profile%20views&color=000e75b6&style=flat" alt="STICKnoLOGIC" /> </p>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=sticknologic&label=Profile%20views&color=0e75b600&style=flat" alt="STICKnoLOGIC" /> </p>
 
 
 <p><a href="https://app.daily.dev/sticknologic"><img src="https://api.daily.dev/devcards/v2/Q7zjcKv8tezBcFJWbq2KQ.png?type=wide&r=4qq" width="652" alt="John Aerial J.  Azcune's Dev Card"/></a></p>
