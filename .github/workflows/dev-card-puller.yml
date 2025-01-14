@@ -22,15 +22,3 @@ jobs:
           user_id: ${{ secrets.UID }}
           type: wide
           commit_message: "chore: update ${filename}"
-          
- compress:
-    needs: devcard_puller
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          ref: ${{ github.head_ref }}
-      - uses: namoscato/action-tinify@v1.4.0
-        with:
-          api_key: ${{ secrets.API }}
-          commit_message: "tinify devcard"
