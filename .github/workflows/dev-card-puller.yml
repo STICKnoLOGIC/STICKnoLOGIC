@@ -20,7 +20,7 @@ jobs:
         uses: dailydotdev/action-devcard@3.2.0
         with:
           user_id: ${{ secrets.UID }}
-          type: "wide"
+          type: wide
           commit_message: "chore: update ${filename}"
       - name: resizing devcard
         uses: namoscato/action-tinify@v1
