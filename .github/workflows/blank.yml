@@ -1,0 +1,29 @@
+name: Daily.dev (DevCard puller)
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: "0 0 * * *"
+jobs:
+ devcard_puller:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+          token: ${{ secrets.PAS }}
+      - name: getting devcard
+        uses: dailydotdev/action-devcard@3.0.0
+        with:
+          user_id: ${{ secrets.UID }}
+          commit_message: "chore: update ${filename}"
+      - name: resizing devcard
+        uses: namoscato/action-tinify@v1
+        with:
+          api_key: ${{ secrets.TINIFY_API_KEY }}
+          commit_message: "tinify devcard"
