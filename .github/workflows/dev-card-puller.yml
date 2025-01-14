@@ -14,9 +14,11 @@ jobs:
         with:
           token: ${{ secrets.PAS }}
       - name: getting devcard
-        uses: dailydotdev/action-devcard@3.2.0
-        with:
-          user_id: ${{ secrets.UID }}
-          type: wide
-          commit_message: "chore: update ${filename}"
-          commit_filename: static/devcard.png
+        run: |
+          curl -o static/devcard.png "https://api.daily.dev/devcards/v2/Q7zjcKv8tezBcFJWbq2KQ.png?type=wide"
+          git config user.name "github-actions[bot]"
+          git config user.email "bot.no_reply@sticknologic.is-a.dev"
+          git add .
+          git commit -m "chore: update DevCard"
+          git push
+
