@@ -2,8 +2,6 @@ name: Compress Images
 
 on:
   push:
-    branches:
-      - main
     paths:
       - 'static/**'
 
@@ -14,6 +12,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: ${{ github.head_ref }}
+          token: ${{ secrets.PAS }}
       - uses: namoscato/action-tinify@v1
         with:
           api_key: ${{ secrets.API }}
