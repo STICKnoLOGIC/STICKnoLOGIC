@@ -15,7 +15,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: ${{ github.head_ref }}
           token: ${{ secrets.PAS }}
       - name: getting devcard
         uses: dailydotdev/action-devcard@3.2.0
