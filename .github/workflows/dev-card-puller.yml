@@ -15,7 +15,7 @@ jobs:
           token: ${{ secrets.PAS }}
       - name: getting devcard
         run: |
-          curl -o static/devcard.png "https://api.daily.dev/devcards/v2/Q7zjcKv8tezBcFJWbq2KQ.png?type=wide"
+          curl -output static/devcard.png "https://api.daily.dev/devcards/v2/Q7zjcKv8tezBcFJWbq2KQ.png?type=wide"
           git config user.name "STICKnoLOGIC-automation[bot]"
           git config user.email "bot.no_reply@sticknologic.is-a.dev"
           git add .
