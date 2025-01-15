@@ -15,9 +15,9 @@ jobs:
           token: ${{ secrets.PAS }}
       - name: getting devcard
         run: |
-          curl -X POST --create-dirs -o static/devcard.png "https://api.daily.dev/devcards/v2/Q7zjcKv8tezBcFJWbq2KQ.png?type=wide"
+          curl --create-dirs -o static/devcard.png "https://api.daily.dev/devcards/v2/Q7zjcKv8tezBcFJWbq2KQ.png?type=wide"
           cd static
-          curl -o devcard.webp https://api.tinify.com/output/2xnsp7jn34e5 \
+          curl -X POST -o devcard.webp https://api.tinify.com/output/2xnsp7jn34e5 \
           --user api:${{ secrets.API }} \
           --header "Content-Type: application/json" \
           --data '{ "convert": { "type": "image/webp"} }' \
