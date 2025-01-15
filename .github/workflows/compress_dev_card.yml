@@ -11,14 +11,15 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: ${{ github.head_ref }}
+          # ref: ${{ github.head_ref }}
       - name: converting to webp
         run: |
-          curl -o static/devcard.png https://api.tinify.com/output/2xnsp7jn34e5 \
+          curl -o static/devcard.webp https://api.tinify.com/output/2xnsp7jn34e5 \
           --user api:${{ secrets.API }} \
           --header "Content-Type: application/json" \
           --data '{ "convert": { "type": "image/webp"} }' \
-          --dump-header /dev/stdout 
+          --dump-header /dev/stdout \
+          --data-binary "@static/devcard.png"
       - uses: namoscato/action-tinify@v1
         with:
           api_key: ${{ secrets.API }}
