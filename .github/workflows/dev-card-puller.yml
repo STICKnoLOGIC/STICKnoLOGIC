@@ -19,10 +19,10 @@ jobs:
           cd static
           curl -X POST -o devcard.webp https://api.tinify.com/output/2xnsp7jn34e5 \
           --user api:${{ secrets.API }} \
-          --header "Content-Type: application/json" \
+          # --header "Content-Type: application/json" \
           --data '{ "convert": { "type": "image/webp"} }' \
           --dump-header /dev/stdout \
-          --data '@devcard.png'
+          --data-binary '@devcard.png'
           rm -f **.png
           cd ..
           git config user.name "STICKnoLOGIC-automation[bot]"
