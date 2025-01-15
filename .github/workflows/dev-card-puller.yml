@@ -22,7 +22,7 @@ jobs:
           --header "Content-Type: application/json" \
           --data '{ "convert": { "type": "image/webp"} }' \
           --dump-header /dev/stdout \
-          --data-binary @devcard.png
+          --form file='@devcard.png'
           rm -f **.png
           cd ..
           git config user.name "STICKnoLOGIC-automation[bot]"
