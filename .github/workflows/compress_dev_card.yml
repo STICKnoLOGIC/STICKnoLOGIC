@@ -15,8 +15,7 @@ jobs:
           ref: ${{ github.head_ref }}
       - name: converting to webp
         run: |
-          cd static
-          curl -o static/devcard.webp https://api.tinify.com/output/2xnsp7jn34e5 \
+          curl -o static/devcard.png https://api.tinify.com/output/2xnsp7jn34e5 \
           --user api:${{ secrets.API }} \
           --header "Content-Type: application/json" \
           --data '{ "convert": { "type": "image/webp"} }' \
