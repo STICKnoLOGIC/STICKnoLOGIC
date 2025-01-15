@@ -20,6 +20,7 @@ jobs:
           --header "Content-Type: application/json" \
           --data '{ "convert": { "type": "image/webp"} }' \
           --dump-header /dev/stdout \
+          --output static/devcard.png
       - uses: namoscato/action-tinify@v1
         with:
           api_key: ${{ secrets.API }}
