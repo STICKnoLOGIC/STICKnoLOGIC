@@ -15,12 +15,12 @@ jobs:
           ref: ${{ github.head_ref }}
       - name: converting to webp
         run: |
+          cd static
           curl -o static/devcard.webp https://api.tinify.com/output/2xnsp7jn34e5 \
           --user api:${{ secrets.API }} \
           --header "Content-Type: application/json" \
           --data '{ "convert": { "type": "image/webp"} }' \
-          --dump-header /dev/stdout \
-          --output static/devcard.png
+          --dump-header /dev/stdout 
       - uses: namoscato/action-tinify@v1
         with:
           api_key: ${{ secrets.API }}
