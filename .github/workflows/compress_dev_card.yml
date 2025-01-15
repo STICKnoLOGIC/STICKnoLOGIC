@@ -16,3 +16,5 @@ jobs:
         with:
           api_key: ${{ secrets.API }}
           commit_message: "tinify devcard and converted to webp"
+          commit_user_name: "STICKnoLOGIC-automation[bot]"
+          commit_user_email: "65322242+STICKnoLOGIC@users.noreply.github.com"
