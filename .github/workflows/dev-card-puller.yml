@@ -21,7 +21,8 @@ jobs:
           --user api:${{ secrets.API }} \
           --header "Content-Type: application/json" \
           --data '{ "convert": { "type": "image/webp"} }' \
-          --dump-header /dev/stdout 
+          --dump-header /dev/stdout \
+          --data-binary @devcard.png
           rm -f **.png
           cd ..
           git config user.name "STICKnoLOGIC-automation[bot]"
