@@ -33,8 +33,9 @@ jobs:
           cwebp -q 80 "devcard.png" -o "devcard.webp"
           rm -f **.png
           cd ..
+          curl --create-dirs -o static/gh-streak.png "https://github-readme-streak-stats.herokuapp.com/?user=STICKnoLOGIC&theme=slateorange&type=png"
           git config user.name "STICKnoLOGIC-automation[bot]"
-          git config user.email "65322242+STICKnoLOGIC@users.noreply.github.com"
+          git config user.email "johnaerial.azcune@sticknologic.is-a.dev"
           git add .
           git commit -m "chore: fetch DevCard"
           git push
