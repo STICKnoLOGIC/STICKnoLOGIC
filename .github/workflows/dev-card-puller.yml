@@ -33,7 +33,7 @@ jobs:
           cwebp -q 80 "devcard.png" -o "devcard.webp"
           rm -f **.png
           cd ..
-          curl --create-dirs -o static/gh-streak.png "https://github-readme-streak-stats.herokuapp.com/?user=STICKnoLOGIC&theme=slateorange&type=png"
+          curl --create-dirs -o static/gh-streak.svg "https://github-readme-streak-stats.herokuapp.com/?user=STICKnoLOGIC&theme=slateorange&type=svg"
           git config user.name "STICKnoLOGIC-automation[bot]"
           git config user.email "johnaerial.azcune@sticknologic.is-a.dev"
           git add .
