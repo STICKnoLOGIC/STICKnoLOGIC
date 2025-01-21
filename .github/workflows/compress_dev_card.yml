@@ -3,7 +3,7 @@ name: Compress Images
 on:
   push:
     paths:
-      - 'static/**'
+      - 'static/**.webp'
 
 jobs:
   compress_devcard:
