@@ -35,8 +35,8 @@ jobs:
           cd ..
           curl --create-dirs -o static/gh-streak.svg "https://github-readme-streak-stats-eight.vercel.app/?user=STICKnoLOGIC&theme=slateorange&type=svg"
           curl --create-dirs -o static/gh-stat.svg "https://github-readme-stats.vercel.app/api/top-langs?username=STICKnoLOGIC&show_icons=true&locale=en&layout=compact&theme=slateorange&type=svg"
-          git config user.name "STICKnoLOGIC-automation[bot]"
-          git config user.email "johnaerial.azcune@sticknologic.is-a.dev"
+          git config --global user.name "STICKnoLOGIC-automation[bot]"
+          git config --global user.email "bot@sticknologic.is-a.dev"
           git add .
           git commit -m "chore: fetch DevCard"
           git push
