@@ -8,6 +8,12 @@ Web and App Developer specializing in digital design and pixel art. Skilled in J
 ![stat](./static/gh-stat.svg)
 
 
+####  Sponsored
+[![Sponsored by GitAds](https://gitads.dev/v1/ad-serve?source=sticknologic/sticknologic@github)](https://gitads.dev/v1/ad-track?source=sticknologic/sticknologic@github)
+
+
+
+
 ![stat](./static/gh-streak.svg)
 
 [![An image of @sticknologic's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/sticknologic)](https://holopin.io/@sticknologic)
