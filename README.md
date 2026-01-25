@@ -8,7 +8,7 @@ Web and App Developer specializing in digital design and pixel art. Skilled in J
 ![stat](./static/gh-stat.svg)
 
 
-####  Sponsored
+####  ADS
 [![Sponsored by GitAds](https://gitads.dev/v1/ad-serve?source=sticknologic/sticknologic@github)](https://gitads.dev/v1/ad-track?source=sticknologic/sticknologic@github)
 
 
