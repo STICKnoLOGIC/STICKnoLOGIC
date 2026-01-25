@@ -1,4 +1,4 @@
-
+<!-- GitAds-Verify: 4D236LMAB9IUYXM3X5IQY27P5RVH5SRO -->
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=sticknologic&label=Profile%20views&color=000000&style=flat" alt="STICKnoLOGIC" /> </p>
 
